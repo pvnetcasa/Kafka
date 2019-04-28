@@ -1,11 +1,10 @@
-Restart Video  at this section: "Demo Starting Apache Kafka"
+Restart Video  at this section: "Demo Fault-tolerance and Resiliency "
 
 - Differences Bettween Training And My Project
   
-            Training			     Mine
-Kafka Ver.                          2.11-0.11.0.1   
-Binaries    /usr/local/bin/kafka	/projects/bin/kafka1
-
+              Training			     Mine
+ Kafka Ver.                          2.11-0.11.0.1   
+ Binaries    /usr/local/bin/kafka	/projects/bin/kafka1
 
 
 - To start 
@@ -24,7 +23,6 @@ Binaries    /usr/local/bin/kafka	/projects/bin/kafka1
 
 - Creating the consumer
 	/projects/kafka1/bin/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic my_topic --from-beginning
-
 
 To install telnet
 	1) sudo apt-get update

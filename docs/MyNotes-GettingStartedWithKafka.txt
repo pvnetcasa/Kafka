@@ -1,15 +1,17 @@
 Restart Video  at this section: "Demo Starting Apache Kafka"
 
 - Differences Bettween Training And My Project
-  Training			Mine
-  /usr/local/bin/kafka	/projects/bin/kafka
+  
+            Training			     Mine
+Kafka Ver.                          2.11-0.11.0.1   
+Binaries    /usr/local/bin/kafka	/projects/bin/kafka
 
 
 
 - To start 
-  -Zookeeper
+ -Zookeeper
    /projects/bin/kafka/bin/zookeeper-server-start.sh /projects/bin/kafka/config/zookeeper.properties
-  -Broker
+ -Broker
    /projects/bin/kafka/bin/kafka-server-start.sh /projects/bin/kafka/config/server.properties
 
 - Creating a topic
